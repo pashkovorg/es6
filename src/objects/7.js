@@ -31,6 +31,8 @@ Object.setPrototypeOf(b, a);
 
 //b.talk(); //will not work
 
-b.walkAndTalk();
+//b.walkAndTalk();
+let bla = b.walk;
+bla();
 
 

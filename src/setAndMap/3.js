@@ -11,17 +11,17 @@ if (recipeMap.has('rat poison')) {
     recipeMap.delete('rat poison');
 }
 
-// цикл по ключам
+// keys cycle
 for(let ingredient of recipeMap.keys()) {
     console.log(ingredient); // potato, mushrooms, salt
 }
 
-// цикл по значениям [ключ,значение]
+// cycle for values [key,value]
 for(let amount of recipeMap.values()) {
     console.log(amount); // 500 gr, 350 gr, 10 gr
 }
 
-// цикл по записям
+// cycle for records
 for(let entry of recipeMap.entries()) { // то же что и recipeMap.entries()
     console.log(entry); // 3 arrays of 2 values
 }

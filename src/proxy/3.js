@@ -11,13 +11,9 @@ dictionary = new Proxy(dictionary, {
         return true; // do nothing but return true
     },
 
-    apply() {
-        console.log('apply')
-    }
 });
 
 delete dictionary['Hello'];
 
 console.log(dictionary['Hello']);
 
-dictionary.fuck();
