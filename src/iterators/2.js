@@ -28,4 +28,14 @@ range[Symbol.iterator] = function() {
     }
 };
 
+/*for (let num of range) {
+    console.log(num);
+}*/
 
+/*
+range.to = 8;
+for (let num of range) {
+    console.log(num);
+}*/
+
+/*console.log(Math.max(...range));*/
